@@ -1,7 +1,7 @@
 # markdown-it-plain-text
 
 ![GitHub](https://img.shields.io/github/license/wavesheep/markdown-it-plain-text)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/wavesheep/markdown-it-plain-text/Node.js%20CI)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/wavesheep/markdown-it-plain-text/test.yml?branch=master)
 [![codecov](https://codecov.io/gh/wavesheep/markdown-it-plain-text/branch/master/graph/badge.svg)](https://codecov.io/gh/wavesheep/markdown-it-plain-text)
 ![GitHub file size in bytes](https://img.shields.io/github/size/wavesheep/markdown-it-plain-text/dist/markdown-it-plain-text.min.js)
 [![npm](https://img.shields.io/npm/v/markdown-it-plain-text)](https://www.npmjs.com/package/markdown-it-plain-text)
