@@ -5,7 +5,7 @@ var markdownItPlainTextPlugin = (function () {
     function plainTextRule(state) {
       var text = scan(state.tokens);
       // remove redundant white spaces
-      md.plainText = text.replace(/\s+/g, " ");
+      md.plainText = text.replace(/\s+/g, " ").replace(/\ ([.,!?`:;)\]]\ )/g, "$1").replace(/(\ [(\[])\ /g, "$1").trim();
     }
 
     function scan(tokens) {

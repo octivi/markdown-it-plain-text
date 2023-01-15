@@ -41,7 +41,7 @@ describe('with plugin', () => {
       .use(plainText);
 
     const testData = ':)';
-    const result = `😃 `;
+    const result = `😃`;
     md.render(testData);
 
     expect(md.plainText).toBe(result)

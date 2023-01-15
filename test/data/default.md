@@ -142,6 +142,8 @@ Right aligned columns
 
 Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
 
+Text then [link text](http://dev.nodeca.com), and more text.
+
 
 ## Images
 
